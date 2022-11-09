@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/generic.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Figma Land</title>
+    <link rel="icon" type="image/x-icon" href="./images/figma-land-icon.png">
+</head>
+
+<body>
+    <div class="bg-gradient">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#252b42"
+                    d="M0,64L60,90.7C120,117,240,171,360,186.7C480,203,600,181,720,154.7C840,128,960,96,1080,106.7C1200,117,1320,171,1380,197.3L1440,224L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    <div class="background-main" style="background-color:#252b42 ;"></div>
+
+    <main>
+        <header class="header justify-content-space-between d-flex align-items-center">
+            <div>
+                <img src="./images/logo.png" class="header-logo" />
+            </div>
+            <div class="d-flex justify-content-end d-desktop-none">
+                <img src="./images/hamburger-icon.svg" width="40px" height="32px" />
+            </div>
+            <div class="d-mobile-none">
+                <nav>
+                    <ul class="d-flex justify-content-space-between align-items-center">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="d-flex justify-content-end d-mobile-none">
+                <div class="header-mail-input-container">
+                    <input placeholder="Your Mail" class="header-input" />
+                </div>
+                <div>
+                    <button class="subscribe-btn-header btn text-pink trans-hover trans-active">Subscribe</button>
+                </div>
+            </div>
+        </header>
+        <section id="above-the-fold" class="d-flex">
+            <div class="screenshot-image-container">
+                <img src="./images/above-the-fold-scshot.png" class="w-100" />
+                <div class="text-align-center">
+                    <button style="margin-top: 60px; width: 236px; height: 65px; "
+                        class="btn text-blue d-desktop-none trans-hover trans-active">
+                        Try For Free
+                    </button>
+                </div>
+            </div>
+            <div class="slogan-container">
+                <h1 class="d-mobile-none">We focus on ergonomics</h1>
+                <h1 class="d-desktop-none">Lightning fast prototyping</h1>
+                <p class="fs16-lh20 fw700" style="margin-top: 17px">
+                    Most calendars are designed for teams.
+                    <br />
+                    Slate is designed for freelancers
+                </p>
+                <button style="margin-top: 60px" class="btn text-blue d-mobile-none trans-hover trans-active">
+                    Try For Free
+                </button>
+            </div>
+        </section>
+        <!-- my own code -->
+        <section>
+            <div class="features-topic text-align-center">
+                <p id="features-first-line" class="fs22-lh33 fw700">At your fingertips</p>
+                <p class="fs46-lh57 fw400" style="margin-top: 17px">Features</p>
+                <p class="fs16-lh20 fw700" style="margin-top: 27px">
+                    Most calendars are designed for teams.
+                    <br />
+                    Slate is designed for freelancers
+                </p>
+                <div class="features">
+                    <ul class="features-list d-flex justify-content-center  text-align-left">
+                        <li>
+                            <div class="d-flex align-items-center">
+                                <img src="./images/Features-left.png" alt="">
+                                <p class="fs22-lh33 fw700">The best products <br> start with Sketch</p>
+                            </div>
+                            <p class="fs18-lh27 fw400 margin-top-20">Slate helps you see how many <br>
+                                more days you need to work to <br>
+                                reach your financial goal. </p>
+                        </li>
+                        <li style="margin-left:52px ; margin-right: 52px;">
+                            <div class="d-flex align-items-center">
+                                <img src="./images/Features-middle.png" alt="">
+                                <p class="fs22-lh33 fw700">Fastest way to <br> organize</p>
+                            </div>
+                            <p class="fs18-lh27 fw400 margin-top-20">Slate helps you see how many <br>
+                                more days you need to work to <br>
+                                reach your financial goal. </p>
+                        </li>
+                        <li >
+                            <div class="d-flex align-items-center">
+                                <img src="./images/Features-right.png" alt="">
+                                <p class="fs22-lh33 fw700">Work better <br> together</p>
+                            </div>
+                            <p class="fs18-lh27 fw400 margin-top-20">Slate helps you see how many <br>
+                                more days you need to work to <br>
+                                reach your financial goal. </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lightning">
+                    <p class="fs46-lh57 fw400">Lightning fast <br> prototyping </p>
+                    <p class="fs16-lh20 fw700" style="margin-top: 27px">Most calendars are designed for teams. <br>
+                        Slate is
+                        designed for freelancers</p>
+                    <button class="try-for-free-btn text-white trans-hover trans-active">
+                        Try For Free
+                    </button>
+                    <div class="lightning-screen-mask">
+                        <img src="./images/lightning-SCREEN-MASK.png">
+                    </div>
+                    <div class="lightning-header">
+                        <p class="fs22-lh33 fw700">At your fingertips</p>
+                        <p class="fs46-lh57 fw400 d-mobile-none" style="margin-top: 7px;">Lightning fast prototyping </p>
+                        <p class="fs46-lh57 fw400 d-desktop-none" style="margin-top: 17px;">Newsletter </p>
+                        <p class="fs22-lh33 fw700">Subscribe to our Newsletter</p>
+                        <p class="fs18-lh27 fw400" style="margin-top: 10px;">Available exclusivery on Figmaland</p>
+                    </div>
+                    <div class="section-mail-input-container">
+                        <input placeholder="Your Mail" class="section-input" />
+                    </div>
+                    <div>
+                        <button class="btn subscribe-btn-section text-white trans-hover trans-active">Subscribe</button>
+                    </div>
+                </div>
+                <div class="partners">
+                    <div class="partners-header">
+                        <p class="fs46-lh57 fw400">Partners</p>
+                        <p class="fs16-lh20 fw700" style="margin-top: 27px">Most calendars are designed for teams. <br>
+                            Slateisdesigned for freelancers</p>
+                    </div>
+                    <ul class="partner-list d-flex align-items-center justify-content-center">
+                        <li>
+                            <p class="fs12-lh18 fw700">Client Name</p>
+                            <img class="margin-top-25" src="./images/partners-1.png" alt="">
+                            <p class="fs18-lh27 fw400 margin-top-25">Slate helps you see how <br>
+                                many more days you need <br>
+                                to work to reach your <br>
+                                financial goal for <br>
+                                the month and year.</p>
+                        </li>
+                        <li id="android-partner-item">
+                            <p class="fs12-lh18 fw700">Client Name</p>
+                            <img class="margin-top-25" src="./images/./partners-2.png" alt="">
+                            <p class="fs18-lh27 fw400 margin-top-25">Slate helps you see how <br>
+                                many more days you need <br>
+                                to work to reach your <br>
+                                financial goal for <br>
+                                the month and year.</p>
+                        </li>
+                        <li>
+                            <p class="fs12-lh18 fw700">Client Name</p>
+                            <img class="margin-top-25" src="./images/partners-3.png" alt="">
+                            <p class="fs18-lh27 fw400 margin-top-25">Slate helps you see how<br>
+                                many more days you need<br>
+                                to work to reach your<br>
+                                financial goal for <br>
+                                the month and year.</p>
+                        </li>
+
+                    </ul>
+                    <ul class="partner-list margin-top-93 d-flex align-items-center justify-content-center d-mobile-none">
+                        <li>
+                            <p class="fs12-lh18 fw700">Client Name</p>
+                            <img class="margin-top-25" src="./images/partners-3.png" alt="">
+                            <p class="fs18-lh27 fw400 margin-top-25">Slate helps you see how<br>
+                                many more days you need<br>
+                                to work to reach your<br>
+                                financial goal for <br>
+                                the month and year.</p>
+                        </li>
+                        <li>
+                            <p class="fs12-lh18 fw700">Client Name</p>
+                            <img class="margin-top-25" src="./images/partners-4.png" alt="">
+                            <p class="fs18-lh27 fw400 margin-top-25">Slate helps you see how <br>
+                                many more days you need <br>
+                                to work to reach your <br>
+                                financial goal for <br>
+                                the month and year.</p>
+                        </li>
+                        <li>
+                            <p class="fs12-lh18 fw700">Client Name</p>
+                            <img class="margin-top-25" src="./images/partners-5.png" alt="">
+                            <p class="fs18-lh27 fw400 margin-top-25">Slate helps you see how<br>
+                                many more days you need<br>
+                                to work to reach your<br>
+                                financial goal for <br>
+                                the month and year.</p>
+                        </li>
+
+                    </ul>
+                    <div class="testimonials">
+                        <button id="under-partner-list-btn" class="try-for-free-btn text-white trans-hover trans-active">
+                            Try For Free
+                        </button>
+                        <p class="testimonials-header fs46-lh57 fw400">Testimonials</p>
+                        <img src="./images/Dropbox-logo.png" alt="" width="229px"
+                            height="46px">
+                        <p class="fs16-lh20 fw700 d-mobile-none" style="margin-top:60px ;">Most calendars are designed for teams.
+                            Slate is designed for freelancers who want a simple <br>
+                            way to plan their schedule.</p>
+                            <p class="fs16-lh20 fw700 d-desktop-none" style="margin-top:53px ;">Most calendars are designed for teams. <br>
+                                Slate is designed for freelancers who want a <br> simple
+                                way to plan their schedule.</p>
+                        <div class="d-flex align-items-center justify-content-center designer-info">
+                            <img class="d-mobile-none" src="./images/Designer-profile-desktop.png" alt="" width="50px" height="50px">
+                            <img class="d-desktop-none" src="./images/Designer-profile-mobile.png" alt="" width="50px" height="50px">
+                            <div>
+                                <p style="margin-left:12px ;" class="fs12-lh18 fw700">Organize across</p>
+                                <p style="margin-left:2px ;" class="fs15-lh27 fw400">Ui designer</p>
+                            </div>
+                        </div>
+                        <button class="testimonials-btn text-white trans-hover trans-active">
+                            More Testimonials
+                        </button>
+                    </div>
+                    <div class="pricing">
+                        <p class="fs46-lh57 fw400 pricing-header">Pricing</p>
+                        <p style="margin-top: 27px;" class="fs16-lh20 fw700">Most calendars are designed for teams. <br>
+                            Slate is designed for freelancers</p>
+                        <ul class="pricing-cards d-flex justify-content-center">
+                            <div class="free-card">
+                                <li>
+                                    <div class="pricing-cards-topic text-align-left">
+                                        <p class="text-color-252B42 fs22-lh33 fw700">Free</p>
+                                        <p class="text-color-374754 fs12-lh18 fw700">Organize across all apps by hand
+                                        </p>
+                                    </div>
+                                    <div style="margin-top:30px; margin-left:50px ;"
+                                        class="text-color-252B42 pricing-cards-price d-flex text-align-left">
+                                        <p class="letter-spacing-0.2 d-mobile-none" id="pricing-cards-cost">0</p>
+                                        <p class="letter-spacing-0.2 d-desktop-none" id="pricing-cards-cost">10</p>
+                                        <div style="margin-left:10px ;">
+                                            <p class="fs22-lh33 fw700">$</p>
+                                            <p style="margin-top:3px ;" class="fs12-lh18 fw700 text-color-374754">Per
+                                                Month</p>
+                                        </div>
+                                    </div>
+                                    <button style="background-color:#38A3F1; margin-top:27.5px ;"
+                                        class="pricing-btn text-white trans-hover trans-active">Order Now</button>
+                                </li>
+                            </div>
+                            <div class="standard-card">
+                                <li>
+                                    <div class="pricing-cards-topic text-align-left">
+                                        <p class="text-color-252B42 fs22-lh33 fw700 d-mobile-none">STANDARD</p>
+                                        <p class="text-color-252B42 fs22-lh33 fw700 d-desktop-none">Free</p>
+                                        <p class="text-color-374754 fs12-lh18 fw700">Organize across all apps by hand
+                                        </p>
+                                    </div>
+                                    <div style="margin-top:30px; margin-left:50px ;"
+                                        class="text-color-252B42 pricing-cards-price d-flex text-align-left">
+                                        <p class="letter-spacing-0.2" id="pricing-cards-cost">10</p>
+                                        <div style="margin-left:10px ;">
+                                            <p class="fs22-lh33 fw700">$</p>
+                                            <p style="margin-top:3px ;" class="fs12-lh18 fw700 text-color-374754">Per
+                                                Month</p>
+                                        </div>
+                                    </div>
+                                    <button style="background-color:#38A3F1; margin-top:27.5px ;"
+                                        class="pricing-btn text-white trans-hover trans-active">Order Now</button>
+                                </li>
+                            </div>
+                            <div class="business-card text-white">
+                                <li>
+                                    <div class="pricing-cards-topic text-align-left">
+                                        <p class="fs22-lh33 fw700 d-mobile-none">BUSINESS</p>
+                                        <p class="fs22-lh33 fw700 d-desktop-none">Free</p>
+                                        <p class="fs12-lh18 fw700">Organize across all apps by hand</p>
+                                    </div>
+                                    <div style="margin-top:30px; margin-left:50px ;"
+                                        class="pricing-cards-price d-flex text-align-left">
+                                        <p class="letter-spacing-0.2 d-mobile-none" id="pricing-cards-cost">99</p>
+                                        <p class="letter-spacing-0.2 d-desktop-none" id="pricing-cards-cost">10</p>
+                                        <div style="margin-left:10px ;">
+                                            <p class="fs22-lh33 fw700">$</p>
+                                            <p style="margin-top:3px ;" class="fs12-lh18 fw700">Per
+                                                Month</p>
+                                        </div>
+                                    </div>
+                                    <button style="margin-top:27.5px;"
+                                        class="pricing-btn text-pink trans-hover trans-active">Order Now</button>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="background-contact-us" style="background-color:#D6EBFF ;"></div>
+                    <section style="margin-top:195px;" class="contact-us">
+                        <div class="letter-spacing-0.2">
+                            <p class="fs46-lh57 fw400">Contact Us</p>
+                            <p style="margin-top:27px ;" class="fs16-lh20 fw700">Most calendars are designed for teams.
+                                <br>
+                                Slate is designed for freelancers
+                            </p>
+                        </div>
+                        <div style="margin-top:60px ;" class="d-flex contact-us-container">
+                            <div class="contact-us-form">
+                                <p style="margin-top:26px ;" class="fs14-lh22 fw700">Contact Us</p>
+                                <div class="contact-us-input">
+                                    <div>
+                                        <input style="margin-top:31px ;" placeholder="Your Name" />
+                                        <input style="margin-top:31px ;" placeholder="Your Email" />
+                                    </div>
+                                    <input style="margin-top:31px ;" placeholder="Your Message" />
+                                </div>
+                                <button style="margin-top: 31px;" class="text-white trans-hover trans-active">
+                                    Send
+                                </button>
+                            </div>
+                            <div class="contact-ways text-align-left fs12-lh18 fw700 letter-spacing-0.1">
+                                <div class="align-items-center d-flex">
+                                    <img style="width:25.33px ; height:31.67px;" src="./images/contact-us-location.png"
+                                        alt="">
+                                    <p style="margin-left:20.67px ;">6386 Spring St undefined Anchorage, <br>
+                                        Georgia 12473 United States</p>
+                                </div>
+                                <div style="margin-top:25.13px ;" class="align-items-center d-flex">
+                                    <img style="width:20.42px ; height:32.08px;" src="./images/contact-us-phone.png"
+                                        alt="">
+                                    <p style="margin-left:20.58px ;">(843) 555-0130</p>
+                                </div>
+                                <div style="margin-top:21.65px ;" class="align-items-center d-flex">
+                                    <img style="width:26.25px ; height:20.62px;" src="./images/contact-us-email.png"
+                                        alt="">
+                                    <p style="margin-left:20.75px ;">willie.jennings@example.com</p>
+                                </div>
+                                <div class="contact-app-logos d-flex">
+                                    <img class="twitter-logo" src="./images/contact-us-twitter.png" alt="">
+                                    <img class="facebook-logo" src="./images/contact-us-facebook.png" alt="">
+                                    <img class="linkedin-logo" src="./images/contact-us-linkedin.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <footer class="d-flex text-white">
+                        <div class="pages">
+                            <p class="fs22-lh33 fw700 letter-spacing-0.1">Pages</p>
+                            <div style="margin-top: 25px;" class="fs15-lh27 fw400 letter-spacing-0.2">
+                                <p>Eleanor Edwards</p>
+                                <p style="margin-top: 16px;">Ted Robertson</p>
+                                <p style="margin-top: 16px;">Annette Russell</p>
+                                <p style="margin-top: 16px;">Jennie Mckinney</p>
+                                <p style="margin-top: 16px;">Gloria Richards</p>
+                            </div>
+                        </div>
+                        <div id="footer-map">
+                            <img src="./images/footer-map.png" alt="">
+                        </div>
+                        <div class="contact-ways-footer text-align-left fs12-lh18 fw700 letter-spacing-0.1">
+                                <div class="align-items-center d-flex">
+                                    <img style="width:25.33px ; height:31.67px;" src="./images/contact-us-location.png"
+                                        alt="">
+                                    <p style="margin-left:20.67px ;">6386 Spring St undefined Anchorage, <br>
+                                        Georgia 12473 United States</p>
+                                </div>
+                                <div style="margin-top:25.13px ;" class="align-items-center d-flex">
+                                    <img style="width:20.42px ; height:32.08px;" src="./images/contact-us-phone.png"
+                                        alt="">
+                                    <p style="margin-left:20.58px ;">(843) 555-0130</p>
+                                </div>
+                                <div style="margin-top:21.65px ;" class="align-items-center d-flex">
+                                    <img style="width:26.25px ; height:20.62px;" src="./images/contact-us-email.png"
+                                        alt="">
+                                    <p style="margin-left:20.75px ;">willie.jennings@example.com</p>
+                                </div>
+                                <div class="footer-app-logos d-flex">
+                                    <img class="twitter-logo" src="./images/contact-us-twitter.png" alt="">
+                                    <img class="facebook-logo" src="./images/contact-us-facebook.png" alt="">
+                                    <img class="linkedin-logo" src="./images/contact-us-linkedin.png" alt="">
+                                </div>
+                        </div>
+                    </footer>
+                    <div class="d-mobile-none" style="height:120px ;"></div>
+                    <div class="d-desktop-none" style="height:420px ;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
